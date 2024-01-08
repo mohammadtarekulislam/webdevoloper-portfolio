@@ -1,0 +1,50 @@
+/* select nav style */
+nav {
+    display: flex;
+}
+/* common shared code from open sans */
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.nav-title{
+    color: var(--Dark-01, #181818);
+
+font-size: 45px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.text-primary{
+    color: #FD6E0A;
+}
+nav > ul {
+    display: flex;
+    list-style: none;
+   
+}
+nav li{
+    margin-right: 51px;
+}
+nav a {
+    text-decoration: none;
+}
+.btn-primary{
+    border-radius: 5px;
+    background: #FD6E0A;
+}
+#hire{
+    color: var(--White-Color, #FFF);
+font-family: Open Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.atext-primary{
+    color: var(--Dark-02, #474747);
+font-family: Open Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
